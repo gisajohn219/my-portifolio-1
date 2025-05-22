@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fb;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white transparent;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #0e1318;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #14191e;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #219150;
+  cursor: pointer;
+}
+body{
+    background-image: url("image\ copy\ 14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    </style>
+  <meta charset="UTF-8">
+  <title>Health Center Partnership Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Health Center Partnership Agreement Form</h1>
+    <form action="" method="post">
+      <label for="partner1">Partner 1 Full Name:</label>
+      <input type="text" id="partner1" name="partner1" required>
+
+      <label for="partner2">Partner 2 Full Name:</label>
+      <input type="text" id="partner2" name="partner2" required>
+
+      <label for="healthCenterName">Health Center Name:</label>
+      <input type="text" id="healthCenterName" name="healthCenterName" required>
+
+      <label for="location">Location/Address:</label>
+      <input type="text" id="location" name="location" required>
+
+      <label for="services">Medical Services to Be Offered:</label>
+      <textarea id="services rows="3" placeholder=" services" required></textarea>
+
+      <label for="licenses">Health Licenses or Certifications:</label>
+      <input type="text"  placeholder=" MOH License " required>
+
+      <label for="capital">Capital Contributions:</label>
+      <input type="text" id="capital" name="capital" placeholder="Amount " required>
+
+      <label for="roles">Roles & Responsibilities of Each Partner:</label>
+      <textarea id="roles" name="roles" rows="4" required></textarea>
+
+      <label for="profitSharing">Profit & Loss Sharing Ratio:</label>
+      <input type="text" placeholder="Profit" required>
+
+      <label for="startDate">Start Date of Partnership:</label>
+      <input type="date"  required>
+
+      <label for="duration">Duration of Partnership:</label>
+      <input type="text"  placeholder="duration" required>
+
+      <label for="dispute">Dispute Resolution Clause:</label>
+      <textarea id="dispute"  rows="3" required></textarea>
+
+      <label for="signature1">Partner 1 Signature:</label>
+      <input type="text" id="  required>
+
+      <label for="signature2">Partner 2 Signature:</label>
+      <input type="text" required>
+
+      <button type="submit">Submit Agreement</button>
+    </form>
+  </div>
+</body>
+</html>
